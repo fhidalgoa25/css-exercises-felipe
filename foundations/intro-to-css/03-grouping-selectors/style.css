@@ -1,0 +1,28 @@
+/* 
+
+- **The first element**: a black background and white text
+- **The second element**: a yellow background
+- **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback
+
+*/
+
+.Button1, 
+.Button2 {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+    border-radius: 8px;
+    border-width: 0;
+    padding-block: 8px;
+    padding-inline: 24px;
+    box-shadow: 6px 7px 17px 5px hsla(0, 0%, 0%, 0.18);
+}
+
+.Button1 {
+    color: wheat;
+    background-color: black;
+    margin-right: 24px;
+}
+
+.Button2 {
+    background-color: yellowgreen;
+}
