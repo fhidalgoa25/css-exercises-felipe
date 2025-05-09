@@ -1,0 +1,24 @@
+* {
+    padding: 8px;
+}
+
+.odd {
+    background-color: #fb8080;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.Fontsize-adjustment {
+    font-size: 24px;
+}
+
+#Second {
+    /* blue text and a font size of 36px */
+    color: #0058c4;
+    font-size: 36px;
+}
+
+#Fourth {
+    /* a light green background, a font size of 24px, and bold */
+    background-color: #adec56;
+    font-weight: bold;
+}
